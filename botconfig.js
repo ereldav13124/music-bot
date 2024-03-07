@@ -1,12 +1,12 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //DEV'S
+  Admins: ["1208965142621069432", "UserID"], //DEV'S
   ExpressServer: true, 
-  DefaultPrefix: process.env.Prefix || ">",
+  DefaultPrefix: process.env.Prefix || "+",
   Port: 80, //Which port website gonna be hosted
-  SupportServer: "https://discord.io/sciencegear", // Support Server Link
-  Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", 
-  ClientSecret: process.env.Discord_ClientSecret || "", 
+  SupportServer: "", // Support Server Link
+  Token: process.env.Token || "MTIxNTI4NDQ5NDE5ODYzNjU3NQ.GO_Zo8.ovRWb60kOO7IdGutNUvXD2riQedQEzL-oAEr8k", // Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "1215284494198636575", 
+  ClientSecret: process.env.Discord_ClientSecret || "9ZAbRqkotIyWjzGLhUaVRttYlpyOqBWk", 
   Scopes: ["identify", "guilds", "applications.commands"],
   ServerDeafen: true, 
   DefaultVolume: 100,
@@ -36,8 +36,8 @@ module.exports = {
   },
   
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", 
-    ClientSecret: process.env.Spotify_ClientSecret || "", 
+    ClientID: process.env.Spotify_ClientID || "a4171cdcbe7d4dc89282879ecdd2bf5f", 
+    ClientSecret: process.env.Spotify_ClientSecret || "182c6f593d62415397075bad9c5232ae", 
   },
 
 
